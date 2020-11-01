@@ -1,0 +1,8 @@
+zuul:
+  routes:
+    zuul-gateway:
+      path: /client/**
+      url: http://www.baidu.com
+  host:
+    socket-timeout-millis: 600000
+    connect-timeout-millis: 600000
